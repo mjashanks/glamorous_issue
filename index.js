@@ -1,7 +1,5 @@
 const glamorous = require("glamorous");
 
-const ContainerDiv = glamorous.Div(
-    ({width, isOpen, theme}) => ({
-        display: isOpen ? "block" : "none"
-    })
-);
+const ContainerDiv = glamorous.Div({
+    display: "block"
+});
